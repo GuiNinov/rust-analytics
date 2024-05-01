@@ -1,14 +1,10 @@
-
-# Ricci Curbastro
-
-Gregorio Ricci-Curbastro foi um matemático italiano. É um dos notáveis contribuidores do cálculo tensorial.
-
-Foi talvez o primeiro a utilizar a notação tensorial. Seu trabalho sobre o cálculo diferencial absoluto foi utilizado por Albert Einstein na formulação da teoria geral da relatividade
-
 ## The Repo
 
-(To be implemented)
+This repo implements a basic Bigram language model from scratch with vanilla RUST.
 
+This is a multi-layer perceptron.
+
+This code backpropagates every parameter without any external library.
 
 ## References:
 - Kaiming initialization 
