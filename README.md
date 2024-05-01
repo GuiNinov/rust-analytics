@@ -1,3 +1,5 @@
+# Rust Basic Neural Networks
+
 ## The Repo
 
 This repo implements a basic Bigram language model from scratch with vanilla RUST.

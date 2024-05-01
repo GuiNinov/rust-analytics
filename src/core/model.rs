@@ -191,10 +191,6 @@ impl Model {
         
     }
 
-    pub fn exec(&mut self) {
-        todo!()
-    }
-
     fn loss(&self, logits: &Array2<f32>, y: &Array2<f32>) -> f32 {
         // Find the maximum values along axis 1
         let mut max_indices = Vec::new();
@@ -321,4 +317,9 @@ impl Model {
         println!("Total parameters: {:?}", total_parameters);
         println!("Final loss: {:?}", self.lossi.last().unwrap());       
     }
+
+    pub fn exec(&mut self) {
+        todo!()
+    }
+
 }
